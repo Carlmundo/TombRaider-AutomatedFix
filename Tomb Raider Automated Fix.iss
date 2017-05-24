@@ -36,7 +36,7 @@ var ProgressPage: TOutputProgressWizardPage;
 
 procedure InitializeWizard;
 begin
-  idpAddFileSize('https://community.pcgamingwiki.com/files/download/883-tomb-raider-fix/', ExpandConstant('{tmp}\Tomb1RetailFix.zip'), 217169063);
+  idpAddFileSize('https://github.com/Carlmundo/TombRaider-AutomatedFix/releases/download/mirror/Tomb1RetailFix.zip', ExpandConstant('{tmp}\Tomb1RetailFix.zip'), 217163227);
   idpDownloadAfter(wpReady);
 
   ProgressPage := CreateOutputProgressPage('Installing...','');
@@ -87,7 +87,6 @@ begin
       ProgressPage.SetProgress(10, 100);
       
       Exec(ExpandConstant('{app}\7z.exe'), ExpandConstant('x -y Tomb1RetailFix.zip'), '', SW_HIDE, ewWaitUntilTerminated, ErrorCode);
-      Exec('cmd.exe', ExpandConstant('/c robocopy /S /MOVE "{app}\Tomb1RetailFix" "{app}"'), '', SW_HIDE, ewWaitUntilTerminated, ErrorCode);
 
       Exec(ExpandConstant('{app}\bin2iso.exe'), ExpandConstant('GAME.DAT'), '', SW_HIDE, ewWaitUntilTerminated, ErrorCode);
       Exec(ExpandConstant('{app}\7z.exe'), ExpandConstant('x -y game-01.iso -i!DATA\ -xr!LEVEL10C.PHD'), '', SW_HIDE, ewWaitUntilTerminated, ErrorCode);
@@ -102,7 +101,6 @@ begin
       DelTree(ExpandConstant('{app}\TOOLS'), True, True, True); 
 
       //Delete files - 7z, bin2iso game-01.iso GAME.DAT GAME.GOG
-      DelTree(ExpandConstant('{app}\Tomb1RetailFix'), True, True, True);
       DelTree(ExpandConstant('{app}\Tomb1RetailFix.zip'), False, True, False);
       DelTree(ExpandConstant('{app}\7z.exe'), False, True, False);
       DelTree(ExpandConstant('{app}\bin2iso.exe'), False, True, False);
@@ -156,5 +154,4 @@ Type: files; Name: "{app}\*.mp3"
 
 [Files]
 Source: ".\Install\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-;Source: "{tmp}\Tomb1RetailFix.zip"; DestDir: "{app}"; Flags: external; ExternalSize: 217169063
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
