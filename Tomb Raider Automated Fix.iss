@@ -154,4 +154,5 @@ Type: files; Name: "{app}\*.mp3"
 
 [Files]
 Source: ".\Install\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "{tmp}\Tomb1RetailFix.zip"; DestDir: "{app}"; Flags: external; ExternalSize: 217163227
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
