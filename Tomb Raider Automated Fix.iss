@@ -147,5 +147,5 @@ Type: files; Name: "{app}\*.mp3"
 
 [Files]
 Source: ".\Install\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: ".\Tomb1RetailFix\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: ".\TombATI\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
