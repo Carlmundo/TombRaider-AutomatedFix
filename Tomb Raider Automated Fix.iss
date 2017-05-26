@@ -105,8 +105,8 @@ begin
       ProgressPage.SetText('Installing Visual C++ Redistributables...', '');
       ProgressPage.SetProgress(50, 100);
       
-      Exec(ExpandConstant('{app}\VC_Redist x86-x64\vc_redist.x86.exe'), '/silent', '', SW_SHOW, ewWaitUntilTerminated, ErrorCode);
-      Exec(ExpandConstant('{app}\VC_Redist x86-x64\vc_redist.x64.exe'), '/silent', '', SW_SHOW, ewWaitUntilTerminated, ErrorCode);
+      Exec(ExpandConstant('{app}\_CommonRedist\vc_redist.x86.exe'), '/silent', '', SW_SHOW, ewWaitUntilTerminated, ErrorCode);
+      Exec(ExpandConstant('{app}\_CommonRedist\vc_redist.x64.exe'), '/silent', '', SW_SHOW, ewWaitUntilTerminated, ErrorCode);
     
       //End Post Install
       ProgressPage.Hide;
