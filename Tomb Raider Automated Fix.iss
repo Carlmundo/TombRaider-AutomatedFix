@@ -87,8 +87,9 @@ function NextButtonClick(PageId: Integer): Boolean;
 begin
     Result := True;
     if (PageId = wpSelectDir) and (
-    not FileExists(ExpandConstant('{app}\dosbox.exe')))
-    then
+    not FileExists(ExpandConstant('{app}\dosbox.exe'))
+    and not FileExists(ExpandConstant('{app}\TOMBRAID\tomb.exe'))
+    ) then
     begin
         MsgBox('The Steam or GOG version of {#Game} could not be found in that folder. If it is the correct folder, please try reinstalling the game.', mbError, MB_OK);
         Result := False;
