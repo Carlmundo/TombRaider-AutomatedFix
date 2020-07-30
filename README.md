@@ -4,7 +4,7 @@ Automated installer to upgrade your Steam or GOG copy of Tomb Raider I to the de
 ## Install
 * Make sure you have a clean install of the Steam/GOG version first.
 * [Get the latest version](https://github.com/Carlmundo/TombRaider-AutomatedFix/releases/tag/release)  - click "Download Tomb Raider Automated Fix"
-* Extract and run the file to install.
+* Run the file to install.
 * Once complete, launch the game on Steam and select "Tomb Raider I" or "Unfinished Business" from the launcher.
 
 If the launcher won't open and your PC is severely outdated, then you need [.NET Framework 4.0](https://www.microsoft.com/en-gb/download/details.aspx?id=17718).
