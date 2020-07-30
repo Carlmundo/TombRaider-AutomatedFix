@@ -14,7 +14,7 @@ If the launcher won't open and your PC is severely outdated, then you need [.NET
 ## About
 This tool is ideal for those looking for an easy automated patch to play Tomb Raider in it's best possible state.
 
-* Provides significant enhancements to the game:
+Provides significant enhancements to the game:
 * Custom launcher to play the base game and Unfinished Business expansion
 * Unlocked resolution (runs in native resolution by default)
 * Improved graphics
