@@ -26,7 +26,7 @@ Provides significant enhancements to the game:
 
 Normally, this can be achieved by manually installing and configuring the Tomb Raider Retail Fix but that requires a lot of tinkering that many people have had trouble with. The tweaks are already made for you and the modded game can now be launched from Steam (unlike with a manual install).
 
-## Advanced Configuration (optional) Edit
+## Advanced Configuration (optional)
 In the game folder, open the Patches folder and edit the correct file to manage additional settings:
 
 * **tombati** - Tomb Raider
