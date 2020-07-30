@@ -35,16 +35,15 @@ In the game folder, open the Patches folder and edit the correct file to manage 
 ## Credits
 The patch uses the following components or technologies with credit to their respective authors.
 
-| Name        | Author           |
-| ------------- |:-------------:|
-| GLRage       | [ata4](https://github.com/ata4/glrage) |
-| TombATI      | [Paul Gardiner](http://www.glidos.net/)     |
-| libZPlay | [Zoran Cindori](http://www.inet.hr/~zcindori/)     |
-| Custom game launcher | [cheatfreak47](http://cheatfreak47.cf/)     |
-| libZPlay | [Zoran Cindori](http://www.inet.hr/~zcindori/)     |
-| bin2iso | XS Labs (now [function61](https://function61.com))     |
-| 7zip | [Igor Pavlov](https://www.7-zip.org/)     |
-| Combined Community Codec Pack | CCCP Project     |
-| Upscaled and remastered FMV	 |[LeonDeka](https://www.youtube.com/user/LeoDarkSide)     |
-| Combined Community Codec Pack | CCCP Project     |
-| Automated Fix | Carlmundo |
+| Name                          | Author                                               |
+| ----------------------------- |:----------------------------------------------------:|
+| GLRage                        | [ata4](https://github.com/ata4/glrage)               |
+| TombATI                       | [Paul Gardiner](http://www.glidos.net/)              |
+| libZPlay                      | [Zoran Cindori](http://www.inet.hr/~zcindori/)       |
+| Custom game launcher          | [cheatfreak47](http://cheatfreak47.cf/)              |
+| libZPlay                      | [Zoran Cindori](http://www.inet.hr/~zcindori/)       |
+| bin2iso                       | XS Labs (now [function61](https://function61.com))   |
+| 7zip                          | [Igor Pavlov](https://www.7-zip.org/)                |
+| Combined Community Codec Pack | CCCP Project                                         |
+| Upscaled and remastered FMV	  | [LeonDeka](https://www.youtube.com/user/LeoDarkSide) |
+| Automated Fix                 | Carlmundo                                            |
